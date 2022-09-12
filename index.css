@@ -1,0 +1,107 @@
+html{
+    box-sizing: border-box;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+body{
+    padding: 20px;
+}
+h2,h4,p{
+    margin: 0;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+#card{
+    width: 600px;
+    height: 400px;
+    box-shadow: 2px 3px 7px 0px rgb(0, 0, 0, 0.35);
+    border-radius: 5px;
+    overflow: hidden;
+}
+#top-section{
+    width: 100%;
+    height: 40%;
+    padding: 25px;
+}
+#bottom-section{
+    width: 100%;
+    height: 60%;
+    color: white;
+
+}
+#bottom-left-section{
+    display: inline-block;
+    padding: 20px;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ab2af;
+
+}
+#bottom-right-section{
+    display: inline-block;
+    padding: 20px ;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    background-color: #2ebfbd;
+
+}
+#top-section h2{
+    color: #2ab2af;
+    margin-bottom: 17px;
+}
+#top-section h4{
+    color: #c0df34;
+    margin-bottom: 12px;
+}
+#top-section p{
+    color: #98a6bd;
+}
+button{
+    color: white;
+    background-color: #c0df34;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: #a9c42d;
+    transform: scale(1.01);
+
+}
+#price{
+    font-weight: 700;
+    font-size: 1.4rem;
+}
+#bottom-left-section h4{
+    margin-bottom: 25px;
+}
+#price-frequency,#price{
+    display: inline-block;
+}
+#price-frequency{
+    position: relative;
+    top: -3px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-left: 5px;
+}
+#price-container{
+    margin-bottom: 12px;
+}
+#bottom-left-section p{
+    font-size: 0.9rem;
+    margin-bottom: 35px;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
